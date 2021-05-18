@@ -1,0 +1,36 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    border: 1px solid;
+}
+.flex-container-menu{
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    border: 1px solid;
+}
+.flex-container>div{
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    width: 40px;
+}
+.flex-container-menu>div{
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    width: 70px;
+}
+.d1{
+    border: 1px solid;
+}
+.d2{
+    border: 1px solid;
+}
+.d3{
+    border: 1px solid;
+}
+.flex-content{
+    display: inline-flex;
+}
