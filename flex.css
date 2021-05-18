@@ -1,10 +1,12 @@
 .flex-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .inline-flex-container{
     display: inline-flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .bg-red{
     background-color: red;
@@ -17,10 +19,12 @@ background-color: darkgrey;
 margin: 10px;
 padding: 20px;
 font-size: 30px;
+width: 70px;
 }
 .inline-flex-container>div{
     background-color: lightgrey;
     margin: 20px;
     padding: 10px;
     font-size: 25px;
-    }
+    width: 70px;
+}
