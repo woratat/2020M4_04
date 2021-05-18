@@ -1,8 +1,10 @@
 .flex-container{
     display: flex;
+    flex-direction: column;
 }
 .inline-flex-container{
     display: inline-flex;
+    flex-direction: row-reverse;
 }
 .bg-red{
     background-color: red;
